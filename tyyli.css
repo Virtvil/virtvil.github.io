@@ -95,6 +95,7 @@ h4 {
 
 p {
     margin: 3% 20% 5% 20%;
+    font-size: 30px;
     
 }
 
@@ -131,7 +132,7 @@ body {
 
 .skills1 img {
     width: 65%;
-    margin-top: -13%;
+    margin-top: -10%;
     margin-bottom: -8%;
 }
 
@@ -173,11 +174,16 @@ right: 35px;
 z-index: 99;
 background: none;
 border: none;
-outline: none;}
+outline: none;
+}
 
 
 /*mobiilinäkymä*/
-@media (max-width:700px) {
+@media (max-width:1000px) {
+    .body {
+        padding: 30px;
+    }
+    
     .work1 {
         width: 90%;
         margin: auto;
@@ -185,38 +191,49 @@ outline: none;}
     }
 
     nav {
-        font-size: 23px;
+        font-size: 40px;
     }
 
     h1 {
-        font-size: 35px;
+        font-size: 60px;
+
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 55px;
     }
 
     h3 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     h4 {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     p {
-        font-size: 15px;
+        font-size: 35px;
     }
 
     .toka {
-        font-size: 18px;
+        font-size: 30px;
     }
 
     .flex-container {
         flex-direction: column;
+
     }
 
     .flex-container section {
-        width: 100%;
+        width: 80%;
+        margin: auto;
+    }
+
+    .flex-container section p {
+        font-size: 15px !important; 
+    }
+
+    #nappi img {
+        max-width: 80px;
     }
 }
