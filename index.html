@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vili Virtanen</title>
+
+    <!--koodisto-->
+    <meta charset="utf-8">
+
+    <!--skaalaantavuus-->
+    <meta name="vievwport" content="width=device-width, initial scale=1">
+
+    <!--kuvaus sisällöstä-->
+    <meta name="description" content="Webpages of Vili Virtanen">
+    <meta name="author" content="Vili">
+
+    <!--linkki ulkoiseen tyylitiedostoon-->
+    <link href="tyyli.css" rel="stylesheet">
+</head>
+<!--Navigointi-->
+
+
+
+<!--Sisältö 1-->
+
+<body>
+    <main class="tausta">
+        <article class="alku" id="Alku">
+            <nav>
+                <a href="#Welcome">Welcome</a>
+                <a href="#Workhistory">Work history</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+            <figure class="center1"> <!--Logo-->
+                <img src="https://i.ibb.co/6Fk7pYD/Watermark-Black.png" alt="Watermark-Black">
+            </figure>
+
+            <header>
+                <h1>VILI VIRTANEN</h1>
+            </header>
+
+            <figure class="center2"> <!--Omakuva-->
+                <img src="https://i.ibb.co/fdg090k/IMG-9833.jpg" alt="IMG-9833">
+            </figure>
+        </article>
+    </main>
+
+    <div class="musta"> <!--Sivun"vaihdos"-->
+        <button onclick="topFunction()" id="nappi" title="Go to top"><img src="https://i.ibb.co/w0TpMVS/Nappi.png" alt="nuoli"></button>
+        <script>
+            // Napin haku
+            let mybutton = document.getElementById("nappi");
+
+            // Napin ilmestyminen alaspäin skrollatessa
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // Scrollaus
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+        <figure class="article1" id="Welcome"></figure>
+        <h2>ABOUT ME</h2>
+        <article>
+            <section>
+                <p>Organized and detail-oriented student from Vantaa. Currently studying at Haaga-Helia university of applied sciences,
+                    with a former education in the movie industry and a keen eye in design.
+                    Over 6 years of experience in logistics in leading companies such as Kesko and DSV,
+                    now seeking a career change in business and information technology focusing on infrastructure, cloud and digital services.</p>
+            </section>
+        </article>
+
+        <figure class="work1" id="Workhistory"></figure> <!--Työkokemus-->
+        <article class="flex-container">
+            <section>
+                    <article>
+                        <h2>Work history</h2>
+
+                        <h3>2024 - Current - DSV</h3>
+
+                        <p>Logistics, working with automated robot picking,
+                            and regular guided picking. Additionally orientation to work for new workers.</p>
+
+                        <h3>2018 - 2024 - KESKO</h3>
+
+                        <p>Logistics, supervision and quality control regarding departing
+                            shipments alongside the assistance of truck drivers.</p>
+
+                        <h3>2018 - ELÄKKEENSAAJIEN KESKUSLIITTO, EKL RY</h3>
+
+                        <p>Graphic trainee, design on union flyers, leaflets and advertisements.
+                            Additionally designing the union magazine cover and working on
+                            the visual appearance of different projects.</p>
+
+                        <h3>2015 - 2016 - CITY OF VANTAA</h3>
+
+                        <p>Civil service in the city of Vantaa in their department of education
+                            communications team.</p>
+                    </article>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <h3>HTML.</h3>
+                <figure class="skills1">
+                    <img src="https://i.ibb.co/HKzx2zG/Skills-2.png" alt="Skills-2">
+                </figure>
+                <h3>MICROSOFT OFFICE</h3>
+                <figure class="skills1">
+                    <img src="https://i.ibb.co/LtgQ14k/Skills-4.png" alt="Skills-4">
+                </figure>
+                <h3>PROCREATE</h3>
+                <figure class="skills1">
+                    <img src="https://i.ibb.co/56bvkFd/Skills-3.png" alt="Skills-3">
+                </figure>
+                <h3>CLIPSTUDIO PAINT</h3>
+                <figure class="skills1">
+                    <img src="https://i.ibb.co/56bvkFd/Skills-3.png" alt="Skills-3">
+                </figure>
+                <h3>ADOBE CREATIVE CLOUD</h3>
+                <figure class="skills1">
+                    <img src="https://i.ibb.co/56bvkFd/Skills-3.png" alt="Skills-3">
+                </figure>
+            </section>
+        </article>
+    </div>
+        <footer>
+            <figure class="contact1" id="Contact">
+            <section>
+                <h4>CONTACT:</h4>
+                <p class="toka">virtXXX@hotmail.fi</p>
+                <br>
+                <p class="toka">+358 44555XXXX</p>
+                <br>
+                        <a href="https://www.linkedin.com/in/vili-virtanen" target="blank">
+                            <img src="https://i.ibb.co/PMwXGV8/Linked-In-Logo.png" alt="linkedin"> </a>
+                        <a href="https://www.instagram.com/pelkonenart/" target="blank">
+                            <img src="https://i.ibb.co/2yLWJzn/Instagram-Logo.png" alt="instagram"> </a>
+                            <br>
+                <p class="toka">©Vili Virtanen, 2024</p>
+                <br>
+            </section>
+        </figure>
+        </footer>
+        </body>
+        </html>

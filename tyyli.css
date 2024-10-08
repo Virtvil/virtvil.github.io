@@ -1,0 +1,222 @@
+/* Kommentti */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.alku {
+    background-color: #ebebe8;
+    padding: 30px;
+    width: 100%; /*leveys*/
+    max-width: 1200px; /*maksimileveys*/
+    margin: 20% 30% 10% 30%;
+    margin: auto; /* keskitys sivun keskelle*/
+}
+
+.alku figure {
+    margin: auto;
+}
+
+.tausta {
+    background-color: #ebebe8 !important;
+    width: 100%;
+    margin: 20% 30% 10% 30%;
+    margin: auto; /* keskitys sivun keskelle*/
+}
+
+.musta {
+    background-color: #ebebe8;
+    padding: 30px;
+    /*reunuksen ja sisällön väli*/
+    width: 100%;
+    /*leveys*/
+    max-width: 1200px;
+    /*maksimileveys*/
+    margin: 20% 30% 10% 30%;
+    margin: auto;
+    /* keskitys sivun keskelle*/
+
+}
+
+nav a {
+    display: block;
+    color: #31352e;
+    background-color: #ebebe8;
+    text-decoration: none; /*alleviivaus pois*/
+}
+
+nav {
+    text-align: center; /* tekstin keskitys*/
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    width: 30%; /*leveys*/
+    max-width: 1200px; /*maksimileveys*/
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+nav a:hover {
+    background-color: #D1E2C4;
+}
+
+header {
+    text-align: center; /* tekstin keskitys*/
+    color: #31352e;
+    /* tekstin väri */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 50%;
+}
+
+h2 {
+    text-align: center;
+    color: #778A35;
+    /* tekstin väri */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    margin-top: 15%;
+}
+
+h3 {
+    text-align: left;
+    color: #31352e;
+    /* tekstin väri */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+}
+
+h4 {
+    text-align: center;
+    color: #ebebe8;
+    /* tekstin väri */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+p {
+    margin: 3% 20% 5% 20%;
+    
+}
+
+.toka {
+    color: #ebebe8;
+    margin:auto;
+    margin: 0% 20% 0% 20%;
+
+}
+
+body {
+    color: #31352e;
+    /* tekstin väri */
+    background-color: #31352e;
+    /* taustaväri */
+    font-family: "Geist regular", sans-serif, Arial;
+    margin: auto;
+
+}
+
+.center2,
+.center1,
+.skills1 {
+    text-align: center;
+}
+
+.center1 img {
+    width: 25%;
+}
+
+.center2 img {
+    width: 100%;
+}
+
+.skills1 img {
+    width: 65%;
+    margin-top: -13%;
+    margin-bottom: -8%;
+}
+
+.contact1 img {
+    max-width: 45px;
+    padding: 5px;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container section {
+    width: 50%;
+    padding: 25px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+
+}
+
+.contact1 {
+    background-color: #31352e;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+#nappi img{
+    max-width: 70px;
+}
+
+#nappi {
+position: fixed;
+bottom: 20px;
+right: 35px;
+z-index: 99;
+background: none;
+border: none;
+outline: none;}
+
+
+/*mobiilinäkymä*/
+@media (max-width:700px) {
+    .work1 {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    nav {
+        font-size: 23px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .toka {
+        font-size: 18px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-container section {
+        width: 100%;
+    }
+}
