@@ -179,7 +179,7 @@ outline: none;
 
 
 /*mobiilinäkymä*/
-@media (max-width:1000px) {
+@media screen and (max-width:900px) {
     .body {
         padding: 30px;
     }
@@ -191,16 +191,16 @@ outline: none;
     }
 
     nav {
-        font-size: 40px;
+        font-size: 23px;
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 50px;
 
     }
 
     h2 {
-        font-size: 55px;
+        font-size: 37px;
     }
 
     h3 {
@@ -212,7 +212,7 @@ outline: none;
     }
 
     p {
-        font-size: 35px;
+        font-size: 19px;
     }
 
     .contact1 {
@@ -221,7 +221,8 @@ outline: none;
     }
 
     .toka {
-        font-size: 30px;
+        font-size: 20px;
+        margin: center;
     }
 
     .flex-container {
@@ -235,10 +236,10 @@ outline: none;
     }
 
     .flex-container section p {
-        font-size: 15px !important; 
+        font-size: 19px !important; 
     }
 
     #nappi img {
-        max-width: 100px;
+        max-width: 40px;
     }
 }
