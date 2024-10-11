@@ -46,7 +46,7 @@ nav a {
 nav {
     text-align: center; /* tekstin keskitys*/
     font-family: "Bebas Neue", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     width: 30%; /*leveys*/
     max-width: 1200px; /*maksimileveys*/
     margin: auto;
@@ -81,7 +81,7 @@ h3 {
     color: #31352e;
     /* tekstin väri */
     font-family: "Bebas Neue", sans-serif;
-    font-size: 28px;
+    font-size: 35px;
 }
 
 h4 {
@@ -89,7 +89,7 @@ h4 {
     color: #ebebe8;
     /* tekstin väri */
     font-family: "Bebas Neue", sans-serif;
-    font-size: 30px;
+    font-size: 33px;
     margin-top: 5%;
 }
 
@@ -124,10 +124,12 @@ body {
 
 .center1 img {
     width: 25%;
+    margin: auto;
 }
 
 .center2 img {
     width: 100%;
+    margin: auto;
 }
 
 .skills1 img {
@@ -158,6 +160,7 @@ body {
 .contact1 {
     background-color: #31352e;
     width: 100%;
+    padding: 30px;
     margin: auto;
     text-align: center;
 
@@ -212,7 +215,7 @@ outline: none;
     }
 
     p {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     .contact1 {
@@ -236,10 +239,12 @@ outline: none;
     }
 
     .flex-container section p {
-        font-size: 19px !important; 
+        font-size: 20px !important; 
     }
 
     #nappi img {
-        max-width: 40px;
+        max-width: 45px;
     }
+
 }
+
