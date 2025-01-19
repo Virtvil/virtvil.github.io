@@ -139,10 +139,14 @@ body {
 }
 
 .contact1 img {
-    max-width: 45px;
+    max-width: 360px;
     padding: 5px;
 }
 
+.contact2 img {
+    max-width: 45px;
+    padding: 5px;
+}
 
 .flex-container {
     display: flex;
@@ -158,6 +162,15 @@ body {
 }
 
 .contact1 {
+    background-color: #31352e;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.contact2 {
     background-color: #31352e;
     width: 100%;
     padding: 30px;
